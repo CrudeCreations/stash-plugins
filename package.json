@@ -1,0 +1,29 @@
+{
+  "name": "stash-plugins",
+  "version": "0.0.1",
+  "description": "Stash Plugin repository for CrudeCreations",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrudeCreations/stash-plugins.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "release": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "CrudeCreator",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CrudeCreations/stash-plugins/issues"
+  },
+  "homepage": "https://github.com/CrudeCreations/stash-plugins#readme",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.10.2",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.7.2"
+  }
+}
